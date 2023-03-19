@@ -1,0 +1,157 @@
+/*All css codes*/
+p {
+    margin: 0;
+    line-height: 1.3;
+}
+
+.mt-16 {
+    margin-top: 16px;
+    width: 96%;
+}
+
+.horizontal-divider {
+    width: 100%;
+    height: 2px;
+    background-color: #EAEAEA;
+    margin-top: 12px;
+}
+
+.vertical-divider {
+    width: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-divider > .line {
+    width: 2px;
+    height: 100%;
+    background-color: #EAEAEA !important;
+}
+
+.vertical-divider-2 {
+    width: 2px;
+    height: 710px;
+    background-color: #EAEAEA !important;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*All the div inside flex-container*/
+.flex-container > div {
+    background-color: #fff;
+    font-size: 30px;
+}
+
+.block-1 {
+    width: 474px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block-2 {
+    width: 578px;
+}
+
+.block-3 {
+    width: 345px;
+    padding-left: 8px;
+}
+
+.ads-display {
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ads-title {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 5px 0 5px;
+    margin-bottom: 12px;
+}
+
+.display-pic {
+    height: 325px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 12px;
+}
+
+/*1052*/
+
+.description {
+    width: 92%;
+    font-size: 14px;
+}
+
+.col-3 {
+    width: 337px;
+    height: 364px;
+}
+
+.post-pic {
+    width: 100%;
+    height: 192px;
+    object-fit: cover;
+}
+
+.col-3-side {
+    height: 174px;
+}
+
+.col-3-1 {
+    height: 174px;
+}
+
+.post-title {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 5px 0 5px;
+}
+
+.post-title-2 {
+    width: 92%;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 0 5px 0 5px;
+}
+
+.post-description {
+    margin-top: 8px;
+    font-size: 14px;
+    padding: 0 5px 0 5px;
+}
+
+.post-author {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 5px 0 5px;
+}
+
+.content-separate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
